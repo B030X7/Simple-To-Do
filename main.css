@@ -1,0 +1,61 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	background: #1C3144;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+.container {
+	
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+ul li {
+	list-style-type: none;
+	margin: 4px 0;
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fas {
+	font-size: 25px;
+	color: #fff;
+}
+
+.search input {
+	width: 500px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.add input {
+	width: 500px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+input[type=text],input[type=text]:focus{
+	color: #fff;
+	border: none;
+	background: rgba(0,0,0,0.2);
+	max-width: 500px;
+}
+.filtered {
+	display: none;
+}
+ul li {
+	padding: 20px 0;
+	background: #596F62;
+	border-radius: 5px;
+}
